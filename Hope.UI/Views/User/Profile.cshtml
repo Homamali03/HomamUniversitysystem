@@ -1,0 +1,89 @@
+﻿@*
+    For more information on enabling MVC for empty projects, visit https://go.microsoft.com/fwlink/?LinkID=397860
+*@
+@{
+}
+@model Hope.Infrastructure.DTO.UserDTO;
+<html>  
+    <head>
+
+    </head>
+    <body>
+        <section class="section profile">
+        <div class="row">
+            <div class="col-xl-4">
+                <div class="card">
+                    <div class="card-body profile-card pt-4 d-flex flex-column align-items-center">
+                        @if(Model.ImageFullPath != null)
+                        {
+                            <img src="@Model.ImageFullPath">
+                        }
+                        else
+                        {
+                            <img src="https://static.vecteezy.com/system/resources/previews/018/765/757/non_2x/user-profile-icon-in-flat-style-member-avatar-illustration-on-isolated-background-human-permission-sign-business-concept-vector.jpg" />
+                        }
+                        <h2>Welcome @Model.FirstName @Model.LastName</h2>
+                    </div>
+                </div>
+            </div>
+            <div class="col-xl-8">
+                <div class="card">
+                    <div class="card-body pt-3">
+                        <ul class="nav nav-tads nav-tads-border">
+                            <li class="nav-item">
+                                <button class="nav-link active" data-bs-toggle="tab" data-bs-target="#ProfileOverview">Overview</button>
+                            </li>
+                            <li class="nav-item">
+                                <button class="nav-link" data-bs-toggle="tab" data-bs-target="#ProfileEdit">Edit</button>
+                            </li>
+                        </ul>
+                        <div class="tab-content pt-2">
+                            <div class="tab-pane fade ProfileOverview" id="ProfileOverview">
+                                <h5 class="card-title">Profile Details</h5>
+                                <div class="row">
+                                    <div class="col-lg-3 col-md-4 label">Full Name</div>
+                                    <div class="col-lg-9 col-md-8 label">@Model.FirstName @Model.LastName</div>
+                                </div>
+                                <div class="row">
+                                    <div class="col-lg-3 col-md-4 label">Date of Birth</div>
+                                    <div class="col-lg-9 col-md-8 label">@Model.DateOfBirth</div>
+                                </div>
+                                <div class="row">
+                                    <div class="col-lg-3 col-md-4 label">Email</div>
+                                    <div class="col-lg-9 col-md-8 label">@Model.Email</div>
+                                </div>
+                                <div class="row">
+                                    <div class="col-lg-3 col-md-4 label">Mobile</div>
+                                    <div class="col-lg-9 col-md-8 label">@Model.Mobile</div>
+                                </div>
+                            </div>
+                            <div class="tab-pane fade ProfileOverview" id="ProfileEdit">
+                                <div class="row">
+                                    <div class="row-profile-div mb-3">
+                                        First Name
+                                        <input type="text" class="form-control" asp-for="FirstName"/>
+                                    </div>
+                                    <div class="row-profile-div mb-3">
+                                        Last Name
+                                        <input type="text" class="form-control" asp-for="LastName"/>
+                                    </div>
+                                    <div class="row-profile-div mb-3">
+                                        Date Of Birth
+                                        <input type="text" class="form-control" asp-for="DateOfBirth"/>
+                                    </div>
+                                    <div class="row-profile-div mb-3">
+                                        Mobile
+                                        <input type="text" class="form-control" asp-for="Mobile"/>
+                                    </div>
+                                    <div>
+                                        <button type="submit" class="btn btn-primary">Save</button>
+                                    </div>
+                                </div>
+                            </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    </body>
+</html>

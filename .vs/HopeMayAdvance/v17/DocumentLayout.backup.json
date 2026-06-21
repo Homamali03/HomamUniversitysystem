@@ -1,0 +1,122 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "E:\\HopeMayAdvance\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{EAB54BCD-E234-4397-9CC1-1780FC452851}|Hope.UI\\Hope.UI.csproj|e:\\hopemayadvance\\hope.ui\\controllers\\accountcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EAB54BCD-E234-4397-9CC1-1780FC452851}|Hope.UI\\Hope.UI.csproj|solutionrelative:hope.ui\\controllers\\accountcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EAB54BCD-E234-4397-9CC1-1780FC452851}|Hope.UI\\Hope.UI.csproj|e:\\hopemayadvance\\hope.ui\\controllers\\usercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EAB54BCD-E234-4397-9CC1-1780FC452851}|Hope.UI\\Hope.UI.csproj|solutionrelative:hope.ui\\controllers\\usercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{AD9AFB54-8E38-4D09-9BD7-1A23C39517F7}|Hope.API\\Hope.API.csproj|e:\\hopemayadvance\\hope.api\\controllers\\usercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{AD9AFB54-8E38-4D09-9BD7-1A23C39517F7}|Hope.API\\Hope.API.csproj|solutionrelative:hope.api\\controllers\\usercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EAB54BCD-E234-4397-9CC1-1780FC452851}|Hope.UI\\Hope.UI.csproj|e:\\hopemayadvance\\hope.ui\\views\\user\\profile.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{EAB54BCD-E234-4397-9CC1-1780FC452851}|Hope.UI\\Hope.UI.csproj|solutionrelative:hope.ui\\views\\user\\profile.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EAB54BCD-E234-4397-9CC1-1780FC452851}|Hope.UI\\Hope.UI.csproj|e:\\hopemayadvance\\hope.ui\\views\\user\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{EAB54BCD-E234-4397-9CC1-1780FC452851}|Hope.UI\\Hope.UI.csproj|solutionrelative:hope.ui\\views\\user\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7AAC1BD8-4237-4A2D-9C65-30EE63588FDF}|Hope.Infrastructure\\Hope.Infrastructure.csproj|e:\\hopemayadvance\\hope.infrastructure\\dto\\userdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7AAC1BD8-4237-4A2D-9C65-30EE63588FDF}|Hope.Infrastructure\\Hope.Infrastructure.csproj|solutionrelative:hope.infrastructure\\dto\\userdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "AccountController.cs",
+              "DocumentMoniker": "E:\\HopeMayAdvance\\Hope.UI\\Controllers\\AccountController.cs",
+              "RelativeDocumentMoniker": "Hope.UI\\Controllers\\AccountController.cs",
+              "ToolTip": "E:\\HopeMayAdvance\\Hope.UI\\Controllers\\AccountController.cs",
+              "RelativeToolTip": "Hope.UI\\Controllers\\AccountController.cs",
+              "ViewState": "AgIAAB8AAAAAAAAAAAAAACgAAAApAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-06-16T14:55:30.188Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Profile.cshtml",
+              "DocumentMoniker": "E:\\HopeMayAdvance\\Hope.UI\\Views\\User\\Profile.cshtml",
+              "RelativeDocumentMoniker": "Hope.UI\\Views\\User\\Profile.cshtml",
+              "ToolTip": "E:\\HopeMayAdvance\\Hope.UI\\Views\\User\\Profile.cshtml",
+              "RelativeToolTip": "Hope.UI\\Views\\User\\Profile.cshtml",
+              "ViewState": "AgIAAAcAAAAAAAAAAAAAABIAAAA6AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-06-16T14:48:39.426Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "Create.cshtml",
+              "DocumentMoniker": "E:\\HopeMayAdvance\\Hope.UI\\Views\\User\\Create.cshtml",
+              "RelativeDocumentMoniker": "Hope.UI\\Views\\User\\Create.cshtml",
+              "ToolTip": "E:\\HopeMayAdvance\\Hope.UI\\Views\\User\\Create.cshtml",
+              "RelativeToolTip": "Hope.UI\\Views\\User\\Create.cshtml",
+              "ViewState": "AgIAAFMAAAAAAAAAAAAAAGEAAAAyAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-06-16T14:43:22.418Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "UserDTO.cs",
+              "DocumentMoniker": "E:\\HopeMayAdvance\\Hope.Infrastructure\\DTO\\UserDTO.cs",
+              "RelativeDocumentMoniker": "Hope.Infrastructure\\DTO\\UserDTO.cs",
+              "ToolTip": "E:\\HopeMayAdvance\\Hope.Infrastructure\\DTO\\UserDTO.cs",
+              "RelativeToolTip": "Hope.Infrastructure\\DTO\\UserDTO.cs",
+              "ViewState": "AgIAAB8AAAAAAAAAAAAAACUAAAAKAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-06-16T14:39:03.014Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "UserController.cs",
+              "DocumentMoniker": "E:\\HopeMayAdvance\\Hope.API\\Controllers\\UserController.cs",
+              "RelativeDocumentMoniker": "Hope.API\\Controllers\\UserController.cs",
+              "ToolTip": "E:\\HopeMayAdvance\\Hope.API\\Controllers\\UserController.cs",
+              "RelativeToolTip": "Hope.API\\Controllers\\UserController.cs",
+              "ViewState": "AgIAAJUAAAAAAAAAAAAAAKAAAAA3AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-06-16T14:26:42.109Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "UserController.cs",
+              "DocumentMoniker": "E:\\HopeMayAdvance\\Hope.UI\\Controllers\\UserController.cs",
+              "RelativeDocumentMoniker": "Hope.UI\\Controllers\\UserController.cs",
+              "ToolTip": "E:\\HopeMayAdvance\\Hope.UI\\Controllers\\UserController.cs",
+              "RelativeToolTip": "Hope.UI\\Controllers\\UserController.cs",
+              "ViewState": "AgIAAFgAAAAAAAAAAAAAAGEAAABDAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-06-16T14:15:12.584Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

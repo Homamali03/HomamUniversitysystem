@@ -1,0 +1,86 @@
+﻿@*
+    For more information on enabling MVC for empty projects, visit https://go.microsoft.com/fwlink/?LinkID=397860
+*@
+@{
+}
+@model Hope.Infrastructure.DTO.UserDTO;
+<html>
+<head>
+
+</head>
+<body>
+    <div class="container">
+        <form asp-action="UpdateUser">
+            <div class="row">
+                <div class="col-md-4">
+                    First Name
+                    <span class="text-danger">*</span>
+                    <input type="text" class="form-control" asp-for="FirstName" />
+                    <span asp-validation-for="FirstName" class="text-danger"></span>
+                </div>
+                <div class="col-md-4">
+                    Last Name
+                    <span class="text-danger">*</span>
+                    <input type="text" class="form-control" asp-for="LastName" />
+                    <span asp-validation-for="LastName" class="text-danger"></span>
+                </div>
+                <div class="col-md-4">
+                    Date of Birth
+                    <span class="text-danger">*</span>
+                    <input type="date" class="form-control" asp-for="DateOfBirth" />
+                    <span asp-validation-for="DateOfBirth" class="text-danger"></span>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-md-4">
+                    Email
+                    <span class="text-danger">*</span>
+                    <input type="text" class="form-control" asp-for="Email" />
+                    <span asp-validation-for="Email" class="text-danger"></span>
+                </div>
+                <div class="col-md-4">
+                    Mobile
+                    <span class="text-danger">*</span>
+                    <input type="text" class="form-control" asp-for="Mobile" />
+                    <span asp-validation-for="Mobile" class="text-danger"></span>
+                </div>
+                <div class="col-md-4">
+                    Nationality
+                    <span class="text-danger">*</span>
+                    <select class="form-select" asp-for="NationalityId" asp-items="@(new SelectList(ViewBag.Nationality, "Id", "Name"))">
+                        <option selected="selected" value="">Please Select</option>
+                    </select>
+                    <span asp-validation-for="NationalityId" class="text-danger"></span>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-md-4">
+                    Address
+                    <input type="text" class="form-control" asp-for="Address" />
+                </div>
+                <div class="col-md-4">
+                    Gender
+                    <span class="text-danger">*</span>
+                    <br />
+                    <input type="radio" name="Gender" value="true" asp-for="Gender" />Male
+                    <input type="radio" name="Gender" value="false" asp-for="Gender" />Female
+                    <span asp-validation-for="Gender" class="text-danger"></span>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-md-12" style="text-align:right">
+                    <input type="hidden" asp-for="UserId"/>
+                    <input type="submit" class="btn btn-primary" value="Update" />
+                    <a href="GetAllUsers" class="btn btn-danger">Cancel</a>
+                </div>
+            </div>
+        </form>
+    </div>
+@section Scripts {
+    @{
+                        await Html.RenderPartialAsync("_ValidationScriptsPartial");
+        }
+}
+</body>
+
+</html>

@@ -1,0 +1,43 @@
+﻿@*
+    For more information on enabling MVC for empty projects, visit https://go.microsoft.com/fwlink/?LinkID=397860
+*@
+@{
+}
+
+@* <aside id="sidebar" class="sidebar"> *@
+    <ul class="sidebar-nav">
+        <li class="nav-item">
+            <a class="nav-link" asp-controller="Home" asp-action="Index">
+                <i class="bi bi-grid">
+
+                </i>
+                <span>Dashboard</span>
+            </a>
+        </li>
+        @if (Model != null)
+        {
+            @if (Model.User == "True")
+            {
+                <li class="nav-item">
+                    <a class="nav-link" asp-controller="User" asp-action="GetAllUsers">
+                    <i class="bi bi-person">
+
+                    </i>
+                    <span>Users</span>
+                    </a>
+                </li>
+            }
+            @if (Model.Student == "True")
+            {
+                <li class="nav-item">
+                    <a class="nav-link" asp-controller="Student" asp-action="GetAllStudent">
+                    <i class="bi bi-person">
+
+                    </i>
+                    <span>Student</span>
+                    </a>
+                </li>
+            }
+        }
+    </ul>
+@* </aside> *@

@@ -1,0 +1,63 @@
+﻿@*
+    For more information on enabling MVC for empty projects, visit https://go.microsoft.com/fwlink/?LinkID=397860
+*@
+@{
+}
+@model Hope.Infrastructure.DTO.StudentDTO;
+<html>
+    <head>
+        
+    </head>
+    <body>
+        <div class="container">
+            <form asp-action="AddNewStudent">
+            <div class="row">
+                <div class="col-md-4">
+                    Full Name
+                    <span class="text-danger">*</span>
+                    <select class="form-select" asp-for="UserId" asp-items="@(new SelectList(ViewBag.Users,"Id","Name"))">
+                        <option value="" selected="selected">Please Select</option>
+                    </select>
+                </div>
+                <div class="col-md-4">
+                    Tawjihi Certificate
+                    <span class="text-danger">*</span>
+                    <select class="form-select" asp-for="TawjihiCertificateId" asp-items="@(new SelectList(ViewBag.TawjihiCertificate, "Id", "Name"))">
+                        <option value="" selected="selected">Please Select</option>
+                    </select>
+                </div>
+                <div class="col-md-4">
+                    Major
+                    <span class="text-danger">*</span>
+                    <select class="form-select" asp-for="MajorId" asp-items="@(new SelectList(ViewBag.Majors, "Id", "Name"))">
+                        <option value="" selected="selected">Please Select</option>
+                    </select>
+                </div>
+                <div class="col-md-4">
+                    Study Type
+                    <span class="text-danger">*</span>
+                    <select class="form-select" asp-for="StudyTypeId" asp-items="@(new SelectList(ViewBag.StudyType, "Id", "Name"))">
+                        <option value="" selected="selected">Please Select</option>
+                    </select>
+                </div>
+                <div class="col-md-4">
+                    Graduation Year
+                    <span class="text-danger">*</span>
+                    <input type="text" class="form-control" asp-for="GraduationYear" />
+                </div>
+                <div class="col-md-4">
+                    Tawjihi AVG
+                    <span class="text-danger">*</span>
+                    <input type="text" class="form-control" asp-for="TawjihiAVG" />
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-md-12" style="text-align:right">
+                    <input type="submit" class="btn btn-primary" value="Create" />
+                    <a href="GetAllStudent" class="btn btn-danger">Cancel</a>
+                </div>
+            </div>
+            </form>
+        </div>
+    </body>
+</html>

@@ -1,0 +1,46 @@
+{
+  "version": "3.0",
+  "defaultProvider": "cdnjs",
+  "libraries": [
+    {
+      "library": "apexcharts@5.3.5",
+      "destination": "wwwroot/assets/vendor/apexcharts/"
+    },
+    {
+      "library": "bootstrap@5.3.8",
+      "destination": "wwwroot/assets/vendor/bootstrap/"
+    },
+    {
+      "library": "bootstrap-icons@1.13.1",
+      "destination": "wwwroot/assets/vendor/bootstrap-icons/"
+    },
+    {
+      "library": "boxicons@2.1.4",
+      "destination": "wwwroot/assets/vendor/boxicons/"
+    },
+    {
+      "library": "Chart.js@4.5.0",
+      "destination": "wwwroot/assets/vendor/Chart.js/"
+    },
+    {
+      "library": "echarts@6.0.0",
+      "destination": "wwwroot/assets/vendor/echarts/"
+    },
+    {
+      "library": "quill@2.0.2",
+      "destination": "wwwroot/assets/vendor/quill/"
+    },
+    {
+      "library": "remixicon@4.6.0",
+      "destination": "wwwroot/assets/vendor/remixicon/"
+    },
+    {
+      "library": "simple-datatables@10.0.0",
+      "destination": "wwwroot/assets/vendor/simple-datatables/"
+    },
+    {
+      "library": "tinymce@8.1.2",
+      "destination": "wwwroot/assets/vendor/tinymce/"
+    }
+  ]
+}

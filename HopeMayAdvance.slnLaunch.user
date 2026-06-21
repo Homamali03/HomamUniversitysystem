@@ -1,0 +1,15 @@
+[
+  {
+    "Name": "New Profile",
+    "Projects": [
+      {
+        "Path": "Hope.UI\\Hope.UI.csproj",
+        "Action": "Start"
+      },
+      {
+        "Path": "Hope.API\\Hope.API.csproj",
+        "Action": "Start"
+      }
+    ]
+  }
+]
